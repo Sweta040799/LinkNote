@@ -1,4 +1,4 @@
-# linkopedia
+# Link-N-Note
 
 An Application to store and use important Hyperlinks and Notes directly. It is designed using flutter
 
