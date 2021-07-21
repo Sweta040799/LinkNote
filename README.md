@@ -6,9 +6,9 @@ An Application to store and use important Hyperlinks and Notes directly. It is d
 
 ## Packages Used
 sqflite: ^2.0.0+3 - https://pub.dev/packages/sqflite <br/>
-path_provider: ^2.0.2 - https://pub.dev/packages/path_provider
-flutter_linkify: ^5.0.2 - https://pub.dev/packages/flutter_linkify
-url_launcher: ^6.0.9 - https://pub.dev/packages/url_launcher
-intl: ^0.17.0 - https://pub.dev/packages/intl
-flutter_slidable: ^0.6.0 - https://pub.dev/packages/flutter_slidable
-share: ^2.0.4 - https://pub.dev/packages/share
+path_provider: ^2.0.2 - https://pub.dev/packages/path_provider <br/>
+flutter_linkify: ^5.0.2 - https://pub.dev/packages/flutter_linkify <br/>
+url_launcher: ^6.0.9 - https://pub.dev/packages/url_launcher <br/>
+intl: ^0.17.0 - https://pub.dev/packages/intl <br/>
+flutter_slidable: ^0.6.0 - https://pub.dev/packages/flutter_slidable <br/>
+share: ^2.0.4 - https://pub.dev/packages/share <br/>
