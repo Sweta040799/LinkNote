@@ -114,7 +114,7 @@ class AddTaskState extends State<AddTask>{
 
 
     final save = MaterialButton(
-      color: Colors.deepPurple,
+      color: Color.fromRGBO(76, 40, 122, 48),
       shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(20.0))),
       onPressed: ()  {

@@ -37,7 +37,7 @@ class TodoState extends State<TodoDetail>{
 
 //               SizedBox(height: 10,),
 
-               Container(
+               Padding(
                  padding: EdgeInsets.only(left: 50,right: 50),
                  child: Divider(
                    color: Colors.deepPurple,
@@ -48,7 +48,7 @@ class TodoState extends State<TodoDetail>{
                SizedBox(height: 10,),
 
                Expanded(
-                   flex: 2,
+                   flex: 4,
                    child: Padding(
                        padding: EdgeInsets.only(top: 20),
                        child: Text(des,
@@ -57,7 +57,7 @@ class TodoState extends State<TodoDetail>{
                SizedBox(height: 30,),
 
                Expanded(
-                   flex: 2,
+                   flex: 1,
                    child: Text("Created on \n ${date}",style: TextStyle(color: Colors.deepPurple,fontWeight: FontWeight.w300,fontSize: 15),textAlign: TextAlign.center)
                )
 
