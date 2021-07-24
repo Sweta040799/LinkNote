@@ -62,7 +62,8 @@ class TodoMainState extends State<TodoMain>{
       ),
       body: Container(
 //          updateListView(),
-          child: Padding(
+          child: (count == 0)?Center(child: Text('Add Task to View Here\n\nSwipe left to Edit, Delete, Share',
+            style:TextStyle(color: Colors.black26,fontSize: 18),textAlign: TextAlign.center,)):Padding(
               padding: EdgeInsets.only(top:10),
               child: getTodoListView())
       ),

@@ -48,7 +48,7 @@ class AddTaskState extends State<AddTask>{
       child: Center(
         child: TextFormField(
           controller: titleController,
-          maxLength: 35,
+          maxLength: 30,
           maxLengthEnforcement: MaxLengthEnforcement.enforced,
           enableInteractiveSelection: true,
           validator: (value)=> (value==null || value.isEmpty) ? "Title can't be empty":null,
