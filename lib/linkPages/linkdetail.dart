@@ -31,10 +31,12 @@ class LinkState extends State<LinkDetail>{
             child: Column(
               children: [
 
-                Container(
-                  height: MediaQuery.of(context).size.height/8,
-                  padding: EdgeInsets.only(top: 20),
-                  child: Text(title,style: TextStyle(color: Colors.deepPurple,fontSize:25,fontWeight: FontWeight.bold,),textAlign: TextAlign.center,),
+                SingleChildScrollView(
+                  child: Container(
+                    height: MediaQuery.of(context).size.height/8,
+                    padding: EdgeInsets.only(top: 20),
+                    child: Text(title,style: TextStyle(color: Colors.deepPurple,fontSize:25,fontWeight: FontWeight.bold,),textAlign: TextAlign.center,),
+                  ),
                 ),
 
                 SizedBox(height: 10,),
@@ -51,7 +53,7 @@ class LinkState extends State<LinkDetail>{
                 SizedBox(height: 10,),
 
                 Container(
-                  height: MediaQuery.of(context).size.height/2,
+                  height: MediaQuery.of(context).size.height/3,
                   padding: EdgeInsets.only(left: 25,right: 25),
                   child: Linkify(
                     maxLines: 5,

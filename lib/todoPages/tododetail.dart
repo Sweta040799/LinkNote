@@ -50,7 +50,7 @@ class TodoState extends State<TodoDetail>{
                  Container(
                    height: MediaQuery.of(context).size.height/2,
                    padding: EdgeInsets.only(left: 25,right: 25),
-                   child: Text(des,style: TextStyle(color: Colors.deepPurple,fontSize: 15),textAlign: TextAlign.center),
+                   child: SingleChildScrollView(child: Text(des,style: TextStyle(color: Colors.deepPurple,fontSize: 15),textAlign: TextAlign.center)),
 
                  ),
 //                 SizedBox(height: 10,),
